@@ -7,7 +7,6 @@
 </head>
 <body>
     <h1>Dado em PhP</h1>
-    
     <?php
         $roll = rand(1, 6);
 
@@ -27,7 +26,8 @@
     ?>
     <form action="" method="get">
             <button id="bJogar" name="jogar" value="jogar" type="submit"> Jogar Dado </button>
-    <h1>Em JS</h1>
+    
+        <h1>Em JS</h1>
     <script language="JavaScript">
 
     var roll = Math.floor(Math.random() * 6) + 1;
